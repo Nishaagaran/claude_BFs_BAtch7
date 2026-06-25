@@ -1,0 +1,30 @@
+2026-06-25 08:40:30,409 - INFO - ================================================================================
+2026-06-25 08:40:30,409 - INFO - Patient Health Analyzer - Starting execution
+2026-06-25 08:40:30,409 - INFO - ================================================================================
+2026-06-25 08:40:30,409 - INFO - Starting data load from: sample_paitents.csv
+2026-06-25 08:40:30,419 - INFO - ✓ Data loaded successfully. Total records: 12
+2026-06-25 08:40:30,419 - INFO - Starting health categorization...
+2026-06-25 08:40:30,421 - INFO - ✓ Health categorization completed for all records
+2026-06-25 08:40:30,447 - INFO - Generating summary report...
+2026-06-25 08:40:30,461 - INFO - Summary generated: {'AtRisk': 4, 'Healthy': 4, 'Critical': 4}
+2026-06-25 08:40:30,461 - INFO - Healthy patients: 4
+2026-06-25 08:40:30,461 - INFO - At-Risk patients: 4
+2026-06-25 08:40:30,461 - INFO - Critical patients: 4
+2026-06-25 08:40:30,473 - INFO - Starting visualization generation...
+2026-06-25 08:40:30,474 - INFO - Health status distribution: {'AtRisk': 4, 'Healthy': 4, 'Critical': 4}
+2026-06-25 08:40:31,782 - INFO - ✓ Chart saved as 'health_status_distribution.png'
+2026-06-25 08:43:17,639 - INFO - ================================================================================
+2026-06-25 08:43:17,639 - INFO - Patient Health Analyzer - Starting execution
+2026-06-25 08:43:17,639 - INFO - ================================================================================
+2026-06-25 08:43:17,639 - INFO - Starting data load from: sample_paitents.csv
+2026-06-25 08:43:17,645 - INFO - ✓ Data loaded successfully. Total records: 12
+2026-06-25 08:43:17,645 - INFO - Starting health categorization...
+2026-06-25 08:43:17,647 - INFO - ✓ Health categorization completed for all records
+2026-06-25 08:43:17,661 - INFO - Generating summary report...
+2026-06-25 08:43:17,673 - INFO - Summary generated: {'AtRisk': 4, 'Healthy': 4, 'Critical': 4}
+2026-06-25 08:43:17,673 - INFO - Healthy patients: 4
+2026-06-25 08:43:17,673 - INFO - At-Risk patients: 4
+2026-06-25 08:43:17,673 - INFO - Critical patients: 4
+2026-06-25 08:43:17,685 - INFO - Starting visualization generation...
+2026-06-25 08:43:17,686 - INFO - Health status distribution: {'AtRisk': 4, 'Healthy': 4, 'Critical': 4}
+2026-06-25 08:43:18,818 - INFO - ✓ Chart saved as 'health_status_distribution.png'
