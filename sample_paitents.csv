@@ -1,0 +1,13 @@
+Paitentid,name,age,gender,BMI,Blood_pressure,Glucose_level
+P001,John Smith,45,Male,26.5,130/85,105
+P002,Sarah Johnson,38,Female,23.2,118/76,92
+P003,Michael Brown,52,Male,29.8,145/92,148
+P004,Emily Davis,41,Female,24.1,120/78,98
+P005,Robert Wilson,58,Male,31.5,155/98,165
+P006,Jessica Martinez,36,Female,22.7,115/74,88
+P007,David Anderson,49,Male,27.3,135/88,115
+P008,Amanda Taylor,43,Female,25.6,125/81,102
+P009,Christopher Lee,61,Male,32.1,160/100,172
+P010,Michelle Garcia,39,Female,23.9,122/79,96
+P011,James Rodriguez,55,Male,28.4,140/90,138
+P012,Lisa White,44,Female,26.2,128/84,110
