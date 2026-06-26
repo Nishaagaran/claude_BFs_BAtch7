@@ -42,3 +42,20 @@ DEFAULT_CSV_FILE = 'sample_paitents.csv'
 
 # Logging
 LOG_FILE = 'patient_analyzer.log'
+LOG_LEVEL = 'INFO'
+LOG_FORMAT = '%(asctime)s - %(levelname)s - %(message)s'
+
+# Report formatting
+REPORT_BORDER = '=' * 80
+REPORT_SEPARATOR = '\n' + REPORT_BORDER + '\n'
+
+# Chart font sizes and styling
+CHART_XLABEL_SIZE = 12
+CHART_YLABEL_SIZE = 12
+CHART_TITLE_SIZE = 14
+CHART_LABEL_SIZE = 11
+CHART_FONT_WEIGHT = 'bold'
+CHART_GRID_ALPHA = 0.3
+CHART_GRID_LINESTYLE = '--'
+CHART_BAR_EDGE_COLOR = 'black'
+CHART_BAR_EDGE_WIDTH = 1.5
