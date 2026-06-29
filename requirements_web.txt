@@ -1,0 +1,23 @@
+# Patient Health Analyzer - Streamlit Web Application
+# Requirements for running the web interface
+
+# Core dependencies
+streamlit>=1.28.0
+pandas>=2.0.0
+matplotlib>=3.5.0
+plotly>=5.0.0
+
+# Data processing and analysis
+numpy>=1.24.0
+
+# Existing dependencies (console app)
+# pytest>=7.0.0  # For testing only
+
+# Optional: Enhanced visualization
+kaleido>=0.2.1  # For matplotlib export to static images
+
+# Optional: Better CSV handling
+openpyxl>=3.0.0  # For Excel support
+
+# Optional: Performance
+# Note: streamlit has built-in caching with @st.cache_data and @st.cache_resource

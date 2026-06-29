@@ -28,3 +28,87 @@
 2026-06-25 08:43:17,685 - INFO - Starting visualization generation...
 2026-06-25 08:43:17,686 - INFO - Health status distribution: {'AtRisk': 4, 'Healthy': 4, 'Critical': 4}
 2026-06-25 08:43:18,818 - INFO - ✓ Chart saved as 'health_status_distribution.png'
+2026-06-26 07:43:32,683 - INFO - ================================================================================
+2026-06-26 07:43:32,684 - INFO - Patient Health Analyzer - Starting execution
+2026-06-26 07:43:32,684 - INFO - ================================================================================
+2026-06-26 07:43:32,684 - INFO - Starting data load from: sample_paitents.csv
+2026-06-26 07:43:32,698 - INFO - Data loaded successfully. Total records: 12
+2026-06-26 07:43:32,698 - INFO - Starting health categorization...
+2026-06-26 07:43:32,704 - INFO - Health categorization completed for all records
+2026-06-26 07:43:32,733 - INFO - Generating summary report...
+2026-06-26 07:43:32,751 - INFO - Summary generated: {'AtRisk': 4, 'Healthy': 4, 'Critical': 4}
+2026-06-26 07:43:32,751 - INFO - Healthy patients: 4
+2026-06-26 07:43:32,751 - INFO - At-Risk patients: 4
+2026-06-26 07:43:32,751 - INFO - Critical patients: 4
+2026-06-26 07:43:32,765 - INFO - Starting visualization generation...
+2026-06-26 07:43:32,765 - INFO - Health status distribution: {'AtRisk': 4, 'Healthy': 4, 'Critical': 4}
+2026-06-26 07:43:34,096 - INFO - Chart saved as 'health_status_distribution.png'
+2026-06-26 07:43:39,955 - INFO - ================================================================================
+2026-06-26 07:43:39,955 - INFO - Patient Health Analyzer - Execution completed successfully
+2026-06-26 07:43:39,955 - INFO - ================================================================================
+2026-06-26 07:58:25 - __main__ - INFO - ================================================================================
+2026-06-26 07:58:25 - __main__ - INFO - Patient Health Analyzer - Starting execution
+2026-06-26 07:58:25 - __main__ - INFO - ================================================================================
+2026-06-26 07:58:25 - __main__ - INFO - Starting data load from: sample_paitents.csv
+2026-06-26 07:58:25 - __main__ - INFO - Data loaded successfully. Total records: 12
+2026-06-26 07:58:25 - __main__ - INFO - Starting health categorization...
+2026-06-26 07:58:25 - __main__ - INFO - Health categorization completed for all records
+2026-06-26 07:58:25 - __main__ - INFO - Patient data loaded with health status categorization
+2026-06-26 07:58:25 - __main__ - INFO - Generating summary report...
+2026-06-26 07:58:25 - __main__ - INFO - ================================================================================
+2026-06-26 07:58:25 - __main__ - INFO - Detailed Patient Health Status Report
+2026-06-26 07:58:25 - __main__ - INFO - ================================================================================
+2026-06-26 07:58:25 - __main__ - INFO - 
+   Paitentid              name   BMI Blood_pressure  Glucose_level health_status
+0       P001        John Smith  26.5         130/85            105        AtRisk
+1       P002     Sarah Johnson  23.2         118/76             92       Healthy
+2       P003     Michael Brown  29.8         145/92            148      Critical
+3       P004       Emily Davis  24.1         120/78             98       Healthy
+4       P005     Robert Wilson  31.5         155/98            165      Critical
+5       P006  Jessica Martinez  22.7         115/74             88       Healthy
+6       P007    David Anderson  27.3         135/88            115        AtRisk
+7       P008     Amanda Taylor  25.6         125/81            102        AtRisk
+8       P009   Christopher Lee  32.1        160/100            172      Critical
+9       P010   Michelle Garcia  23.9         122/79             96       Healthy
+10      P011   James Rodriguez  28.4         140/90            138      Critical
+11      P012        Lisa White  26.2         128/84            110        AtRisk
+2026-06-26 07:58:25 - __main__ - INFO - ================================================================================
+2026-06-26 07:58:25 - __main__ - INFO - Health Status Summary
+2026-06-26 07:58:25 - __main__ - INFO - ================================================================================
+2026-06-26 07:58:25 - __main__ - INFO - 
+health_status
+AtRisk      4
+Healthy     4
+Critical    4
+2026-06-26 07:58:25 - __main__ - INFO - Summary statistics: {'AtRisk': 4, 'Healthy': 4, 'Critical': 4}
+2026-06-26 07:58:25 - __main__ - INFO - Healthy patients: 4
+2026-06-26 07:58:25 - __main__ - INFO - At-Risk patients: 4
+2026-06-26 07:58:25 - __main__ - INFO - Critical patients: 4
+2026-06-26 07:58:25 - __main__ - INFO - ================================================================================
+2026-06-26 07:58:25 - __main__ - INFO - All Patient Data
+2026-06-26 07:58:25 - __main__ - INFO - ================================================================================
+2026-06-26 07:58:25 - __main__ - INFO - 
+   Paitentid              name  age  gender   BMI Blood_pressure  Glucose_level health_status
+0       P001        John Smith   45    Male  26.5         130/85            105        AtRisk
+1       P002     Sarah Johnson   38  Female  23.2         118/76             92       Healthy
+2       P003     Michael Brown   52    Male  29.8         145/92            148      Critical
+3       P004       Emily Davis   41  Female  24.1         120/78             98       Healthy
+4       P005     Robert Wilson   58    Male  31.5         155/98            165      Critical
+5       P006  Jessica Martinez   36  Female  22.7         115/74             88       Healthy
+6       P007    David Anderson   49    Male  27.3         135/88            115        AtRisk
+7       P008     Amanda Taylor   43  Female  25.6         125/81            102        AtRisk
+8       P009   Christopher Lee   61    Male  32.1        160/100            172      Critical
+9       P010   Michelle Garcia   39  Female  23.9         122/79             96       Healthy
+10      P011   James Rodriguez   55    Male  28.4         140/90            138      Critical
+11      P012        Lisa White   44  Female  26.2         128/84            110        AtRisk
+2026-06-26 07:58:25 - __main__ - INFO - ================================================================================
+2026-06-26 07:58:25 - __main__ - INFO - Generating health status distribution chart...
+2026-06-26 07:58:25 - __main__ - INFO - ================================================================================
+2026-06-26 07:58:25 - __main__ - INFO - Starting visualization generation...
+2026-06-26 07:58:25 - __main__ - INFO - Health status distribution: {'AtRisk': 4, 'Healthy': 4, 'Critical': 4}
+2026-06-26 07:58:26 - __main__ - INFO - Chart saved as 'health_status_distribution.png'
+2026-06-26 07:58:30 - __main__ - INFO - ================================================================================
+2026-06-26 07:58:30 - __main__ - INFO - Patient Health Analyzer - Execution completed successfully
+2026-06-26 07:58:30 - __main__ - INFO - ================================================================================
+2026-06-26 08:17:45 - read_patients - INFO - Starting health categorization...
+2026-06-26 08:17:45 - read_patients - INFO - Health categorization completed for all records

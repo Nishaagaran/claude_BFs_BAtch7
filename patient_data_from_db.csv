@@ -1,0 +1,13 @@
+id,PatientID,name,age,gender,BMI,Blood_pressure,Glucose_level,created_at
+1,P001,John Smith,45,Male,26.5,130/85,105,2026-06-29 07:46:45
+2,P002,Sarah Johnson,38,Female,23.2,118/76,92,2026-06-29 07:46:45
+3,P003,Michael Brown,52,Male,29.8,145/92,148,2026-06-29 07:46:45
+4,P004,Emily Davis,41,Female,24.1,120/78,98,2026-06-29 07:46:45
+5,P005,Robert Wilson,58,Male,31.5,155/98,165,2026-06-29 07:46:45
+6,P006,Jessica Martinez,36,Female,22.7,115/74,88,2026-06-29 07:46:45
+7,P007,David Anderson,49,Male,27.3,135/88,115,2026-06-29 07:46:45
+8,P008,Amanda Taylor,43,Female,25.6,125/81,102,2026-06-29 07:46:45
+9,P009,Christopher Lee,61,Male,32.1,160/100,172,2026-06-29 07:46:45
+10,P010,Michelle Garcia,39,Female,23.9,122/79,96,2026-06-29 07:46:45
+11,P011,James Rodriguez,55,Male,28.4,140/90,138,2026-06-29 07:46:45
+12,P012,Lisa White,44,Female,26.2,128/84,110,2026-06-29 07:46:45
